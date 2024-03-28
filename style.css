@@ -59,7 +59,7 @@ transition: 0.7s;
     justify-content: center;
     align-items: center;
     padding: 50px 0px;
-    margin: 10px 50px;
+    margin: 50px 50px;
     background-color: hwb(36 88% 8%);
 
 }
@@ -109,7 +109,7 @@ transition: 0.7s;
     margin: 10px 300px;
 }
 #what-i-do{
-    margin: 100px 0px;
+    margin: 200px 0px;
 }
 @media only screen and (max-width: 600px)
 {
