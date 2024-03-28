@@ -1,0 +1,231 @@
+.bannerimage{
+    width: 320px;
+    height: 400px;
+}
+
+.bannersection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.btn{
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: 2px solid orange;
+    color: orange;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+.btn:hover{
+    color: white;
+    background-color: orange;
+}
+.a{
+    font-size: x-large;
+}
+.b{font-size: xx-large;}
+#span{
+    color: orange;
+    
+}
+.navlink a {
+text-decoration: none;
+color: black;
+font-weight: bold;
+transition: 0.7s;
+}
+.navlink a:hover{
+    color: red;
+}
+.nav-single{
+    margin: 12px;
+}
+#Banner{
+    background-color:#FAEBD7;
+}
+.navsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+.bannertext{
+    margin-left: 50px;
+}
+#About-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    margin: 10px 50px;
+    background-color: hwb(36 88% 8%);
+
+}
+.aboutmecontact{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+.p{
+    width: 490px;
+}
+.card{
+    width: 200px;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    height: 220px;
+    border-radius: 3px;
+}
+.whatido1stsec{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.whatido2ndsec{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.whatidoicon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card img{
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+}
+.whatidohead{
+    text-align: center;
+    
+}
+.pa{display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 300px;
+}
+#what-i-do{
+    margin: 100px 0px;
+}
+@media only screen and (max-width: 600px)
+{
+    .bannersection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 100px;
+}
+#About-me{
+    display: flex;
+    flex-direction: column;
+    background-color: hwb(36 88% 8%);
+    margin: auto;
+}
+
+.aboutmecontact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aboutmepara p{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+        width: 200px;
+    margin: auto;
+}
+.whatido1stsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.whatido2ndsec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.whatidoicon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.wid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    margin-left: 20px;
+    justify-content: center;
+}
+
+}
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    .aboutmecontact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .aboutmepara p{
+        /* display: flex;
+        flex-direction: column; */
+        text-align: center;
+        align-items: center;
+        /* justify-content: space-evenly; */
+            width: 250px;
+        margin: 0px;
+        padding: 15px;
+    }
+    .whatido1stsec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .whatido2ndsec{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+.resumeh{
+    text-align: center;
+}
+/* .resume-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.resume-2section{
+
+
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+} */
+.resumemain{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
