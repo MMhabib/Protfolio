@@ -172,6 +172,7 @@ transition: 0.7s;
 body{
     margin-left: 20px;
     justify-content: center;
+    margin-right: 0;
 }
 
 }
