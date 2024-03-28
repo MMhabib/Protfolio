@@ -61,6 +61,7 @@ transition: 0.7s;
     padding: 50px 0px;
     margin: 50px 50px;
     background-color: hwb(36 88% 8%);
+    
 
 }
 .aboutmecontact{
@@ -110,6 +111,7 @@ transition: 0.7s;
 }
 #what-i-do{
     margin: 200px 0px;
+    margin-bottom: 400px;
 }
 @media only screen and (max-width: 600px)
 {
@@ -228,4 +230,7 @@ display: flex;
     align-items: center;
     justify-content: space-evenly;
     gap: 20px;
+}
+.body section{
+    gap: 00px;
 }
